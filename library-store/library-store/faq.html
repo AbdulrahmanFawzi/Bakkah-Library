@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بكة - الأسئلة الشائعة</title>
+    <link rel="icon" href="images\BAKKAH ICON LOGO.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images\BAKKAH LOGO.jpg" alt="BAKKAH">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الصفحة الرئيسة</a></li>
+                    <li><a href="about.html">عننا</a></li>
+                    <li><a href="contact.html">للتواصل</a></li>
+                    <li><a href="faq.html">الأسئلة الشائعة</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="text" placeholder="البحث">
+                </div>
+                <div class="search-cart">
+                    <a href="#"><img src="images/cart.png" alt="Cart"></a>
+                    <a href="#"><img src="images/account.png" alt="Account"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="faq-section">
+            <h2 class="section-heading">الأسئلة الشائعة</h2>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">س: ما هي ساعات العمل؟</div>
+                <div class="faq-answer">
+                    <ul>
+                        <li>السبت - الخميس: 9 صباحًا - 9 مساءً</li>
+                        <li>الجمعة: مغلق</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">س: كيف يمكنني متابعة طلبي؟</div>
+                <div class="faq-answer">
+                    <ol>
+                        <li>تسجيل الدخول إلى حسابك.</li>
+                        <li>الذهاب إلى "الطلبات".</li>
+                        <li>اختيار الطلب الذي تريد متابعته.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">س: هل تقدمون خدمات التوصيل الدولي؟</div>
+                <div class="faq-answer">
+                    نعم، نقدم خدمات التوصيل إلى معظم الدول. يمكنك اختيار الدولة عند إتمام الطلب وسنعلمك بتكلفة الشحن.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">س: ما هي طرق الدفع المتاحة؟</div>
+                <div class="faq-answer">
+                    نقبل الدفع عن طريق البطاقات الائتمانية (فيزا وماستركارد)، والدفع عند الاستلام، والتحويل البنكي.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">س: كيف يمكنني إلغاء طلبي؟</div>
+                <div class="faq-answer">
+                    يمكنك إلغاء طلبك عن طريق الدخول إلى "الطلبات" في حسابك واختيار "إلغاء الطلب" قبل أن يتم شحنه.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">س: هل يمكنني استرجاع المنتجات؟</div>
+                <div class="faq-answer">
+                    نعم، يمكنك استرجاع المنتجات خلال 14 يومًا من استلامها بشرط أن تكون في حالتها الأصلية ولم تُستخدم. يرجى التواصل معنا لترتيب عملية الاسترجاع.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">س: كيف يمكنني الحصول على فاتورة لطلبي؟</div>
+                <div class="faq-answer">
+                    يمكنك طباعة الفاتورة من صفحة "الطلبات" في حسابك بعد إتمام عملية الشراء.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">س: هل تقدمون خصومات أو عروض خاصة؟</div>
+                <div class="faq-answer">
+                    نعم، نقدم خصومات وعروض خاصة على مدار العام. يمكنك متابعة موقعنا الإلكتروني أو الاشتراك في النشرة الإخبارية للحصول على أحدث العروض.
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">س: كيف يمكنني الاشتراك في النشرة الإخبارية؟</div>
+                <div class="faq-answer">
+                    يمكنك الاشتراك في النشرة الإخبارية عن طريق إدخال بريدك الإلكتروني في الحقل المخصص أسفل الصفحة والنقر على زر "اشتراك".
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(this)">س: هل يمكنني تغيير عنوان الشحن بعد إتمام الطلب؟</div>
+                <div class="faq-answer">
+                    يمكنك تغيير عنوان الشحن عن طريق التواصل معنا في أسرع وقت ممكن قبل شحن الطلب.
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+    <script>
+        function toggleAnswer(element) {
+            const answer = element.nextElementSibling;
+            answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>
